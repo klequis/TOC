@@ -1,12 +1,14 @@
 // E01HTML
 import React from 'react'
-import Link from 'elements/Link'
+import PageTitle from 'elements/PageTitle'
 
 const React01 = (props) => {
   return (
     <div>
-      <h1>React01</h1>
-      <Link back={props.match}><button>Back</button></Link>
+      <PageTitle
+        title='React-01'
+        back={props.match}
+      />
     </div>
   )
 };

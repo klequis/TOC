@@ -1,10 +1,15 @@
 // E01HTML
 import React from 'react'
+import PageTitle from 'elements/PageTitle'
 
 const Html02 = (props) => {
   return (
-    <h1>Html02</h1>
-
+    <div>
+      <PageTitle
+        title='Html-02'
+        back={props.match}
+      />
+    </div>
   )
 };
 

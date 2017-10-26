@@ -1,14 +1,20 @@
 // ReactTOC
 import React from 'react'
-import Lesson from 'elements/Lesson'
 import MenuItems from 'elements/MenuItems'
 import { htmlMenuItems } from 'data/menu-items'
+import PageTitle from 'elements/PageTitle'
 import * as ku from 'lib/ke-utils'
 
 const HtmlTOC = (props) => {
-  ku.log('HtmlTOC', '', 'blue')
+  // ku.log('HtmlTOC', '', 'blue')
   return (
-    <h1>HtmlTOC</h1>
+    <div>
+      <PageTitle
+        title='Html-TOC'
+        back={props.match}
+      />
+      <MenuItems src={htmlMenuItems}/>
+    </div>
   )
 }
 

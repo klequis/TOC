@@ -5,10 +5,10 @@ import { connect } from 'react-redux'
 import * as actionCreators from '../../../store/actions'
 import * as selectors from '../../../store/selectors'
 import Link from 'elements/Link'
-import * as ku from 'lib/ke-utils'
+// import * as ku from 'lib/ke-utils'
 
 const MenuItems = ({ src }) => {
-  ku.log('MenuItems: src', src, 'blue')
+  // ku.log('MenuItems: src', src, 'blue')
 
   const items = src.map((item, index) => (
     <li key={index}>
@@ -18,7 +18,7 @@ const MenuItems = ({ src }) => {
         {item.name}
       </Link></li>
   ))
-  ku.log('MenuItems: items', items, 'blue')
+  // ku.log('MenuItems: items', items, 'blue')
   return (
     <div>
       <h2>Contents</h2>
