@@ -2,10 +2,9 @@ import React from 'react'
 import styles from './style.css'
 import BackButton from 'elements/BackButton'
 import PropTypes from 'prop-types'
-import * as ku from 'lib/ke-utils'
+// import * as ku from 'lib/ke-utils'
 
 const PageTitle = (props) => {
-  ku.log('PageTitle: back', props.back)
   return (
     <div className={styles.pageHeader}>
       <BackButton className={styles.back} back={props.back}/>
