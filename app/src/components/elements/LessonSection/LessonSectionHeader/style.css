@@ -1,0 +1,38 @@
+/* LessonSectionHeader */
+
+.header {
+  /*margin-bottom: 10px;*/
+}
+
+
+
+.titleOne {
+  font-size: 34px;
+  margin: 22px 0;
+}
+.titleTwo {
+  font-size: 28px;
+  margin: 20px 0;
+}
+.titleThree {
+  font-size: 22px;
+  margin: 18px 0;
+}
+.titleFour {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+.subTitleOne {
+  font-size: 28px;
+  margin: 20px 0;
+}
+.subTitleThree {
+  font-size: 22px;
+  margin: 18px 0;
+}
+.subTitleThree {
+  font-size: 18px;
+  margin: 16px 0;
+}

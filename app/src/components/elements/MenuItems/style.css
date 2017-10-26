@@ -1,0 +1,10 @@
+/* MenuItems */
+
+.linkText {
+  color: black;
+}
+.linkText:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
